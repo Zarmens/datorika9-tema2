@@ -13,32 +13,34 @@ img, audio { max-width: 100%; }
 
 /* NOFORMĒ ŠEIT: pielieto 2.1. un 2.2. nodarbībā apgūto CSS */
 body {
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #0d2404d8;
+  color: #ffffff;
 }
 
-h1 {
-  color: #222222;
+h1 {font: size 36px; Text-align: center;
+  color: #ffffff;
 }
 
 .noteikumi {
-  background-color: #f1f5f9;
-  color: #222222;
-  padding: 12px;
+  background-color: #38630f;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .laukums {
   width: 360px;
   padding: 12px;
-  border: 2px solid #94a3b8;
-  background-color: #f8fafc;
+  border: 2px dashed #2c8a00;
+  background-color: #36570b;
   box-sizing: border-box;
+  margin: 20px auto; max-width: 100%; text-align: center;
 }
 
 button {
-  background-color: #245b91;
+  background-color: #387a19;
   color: #ffffff;
-  border: 0;
+  border-radius: 8px;
 }
 </style>
 </head>
@@ -54,7 +56,7 @@ button {
   <h2>Spēles laukums</h2>
   <img src="atteli/varonis.png" alt="Spēles varonis" width="128">
   <p>Skaņas efekta nozīme spēlē:</p>
-  <audio controls src="skanas/jump.mp3"></audio>
+  <audio controls src="skanas/Jump.mp3"></audio>
   <p id="punkti">Punkti: 0</p>
   <button onclick="savakt()">Savākt punktu</button>
 </div>
